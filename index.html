@@ -1,6 +1,19 @@
 ---
 layout: default
-title: Ruler
+title: Weather
+javascripts:
+  - javascripts/weather.js
+search:
+  lat: 45.5008932
+  lon: -73.5139079
+  displayName: Saint-Lambert
 ---
-<img src="images/ruler.jpg" />
-Test
+<div class="row">
+    <div class="col-12 col-md-6 text-center">
+        {{ page.search.displayName }}
+        <div class="weather"></div>
+    </div>    
+    <div class="col-12 col-md-6">
+        
+    </div>    
+</div>

@@ -9,9 +9,13 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://tvb.one" # the base hostname & protocol for your site, e.g. http://example.com
 
+# REST configuration
+apiKey:
+  openweathermap: "3e7fc8acf298aa1bd69956e9724bbe5d"
+  newsapi: "e004da6d7fd14fedaf60cf9560cd51b5"
+
 # Build settings
 markdown: kramdown
-#theme: minima
 gems:
   - jekyll-feed
 exclude:

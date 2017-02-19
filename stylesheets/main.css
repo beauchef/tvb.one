@@ -1,3 +1,7 @@
 /*
  * Main CSS
  */
+body {
+    background-color: black;
+    color: lightgrey;
+}
