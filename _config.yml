@@ -1,0 +1,19 @@
+# Site settings
+title: tvb.one - TV Boards
+author: tvb.one
+email: info@tvb.one
+inceptionYear: 2017
+description: > 
+  TV Boards of various nature.
+  News, weather, and sports.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://tvb.one" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+markdown: kramdown
+#theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
