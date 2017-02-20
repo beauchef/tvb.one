@@ -5,7 +5,7 @@ $.getJSON(url).then(function(data) {
     var weather = result.weather[0];
     $(".weather").after(
         '<div class="row">'+
-        '<div class="col-12 icon"><i class="owf owf-'+weather.id+' owf-5x icon"></i></div>' +
+        '<div class="col-12 icon"><i class="wi wi-owm-'+weather.id+' icon"></i></div>' +
         '<div class="col-12 description">'+weather.description+'</div>' +
         '<div class="col-12 temperature">'+Math.round(temp.day)+'°C</div>' +
         '</div>');

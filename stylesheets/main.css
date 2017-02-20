@@ -5,3 +5,17 @@ body {
     background-color: black;
     color: lightgrey;
 }
+
+.icon {
+    font-size: 75px;
+    color: white;
+}
+
+.description {
+    font-size: 15px;
+    color: darkgrey;
+}
+
+.temperature {
+    font-size: 35px;
+}
